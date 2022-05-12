@@ -1,5 +1,5 @@
 body {
-    background-color: red;
+    background-color: rgb(224, 83, 83);
 }
 h1{
     color: blue;
@@ -15,4 +15,16 @@ table{
 table, th, td{
     border: 1px solid blue;
     padding: 5px;
+}
+
+/* Utilisation de class */
+.Même_couleur_que_le_1er_paragraphe{
+    color : yellow;
+}
+
+/* changement de couleur via survole */
+
+h1:hover{
+    border-radius: 10px;
+    background-color: aqua;
 }

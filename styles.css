@@ -1,0 +1,18 @@
+body {
+    background-color: red;
+}
+h1{
+    color: blue;
+}
+p{
+    font-size: 25px;
+}
+/* Bordure sur notre tableau */
+table{
+    border-style: solid;
+    border-collapse: collapse;
+}
+table, th, td{
+    border: 1px solid blue;
+    padding: 5px;
+}

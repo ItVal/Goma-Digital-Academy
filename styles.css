@@ -28,3 +28,7 @@ h1:hover{
     border-radius: 10px;
     background-color: aqua;
 }
+/* utilisation de font */
+p{
+    font : italic bold 25px sans-serif;
+}

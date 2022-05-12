@@ -1,34 +1,64 @@
-body {
-    background-color: rgb(224, 83, 83);
-}
-h1{
-    color: blue;
-}
-p{
-    font-size: 25px;
-}
-/* Bordure sur notre tableau */
-table{
-    border-style: solid;
-    border-collapse: collapse;
-}
-table, th, td{
-    border: 1px solid blue;
-    padding: 5px;
-}
-
-/* Utilisation de class */
-.Même_couleur_que_le_1er_paragraphe{
-    color : yellow;
-}
-
-/* changement de couleur via survole */
-
-h1:hover{
-    border-radius: 10px;
-    background-color: aqua;
-}
-/* utilisation de font */
-p{
-    font : italic bold 25px sans-serif;
-}
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  h1 {
+    text-align : center ;
+    font-size : 50px;
+  }
+  
+  h2{
+    color : red;
+  }
+  
+  .texte_Bleu{
+    color : blue;
+    border-style : dotted;
+    text-align : justify;
+    margin : 20px ;
+    padding: 20px ;
+  }
+  th{
+    color : white ;
+    text-align : center;
+    font-weight : bold ;
+    font-size : 40px;
+    background : #464444;
+  }
+  .color{
+    background : #d0cdcd;
+  }
+  
+  .bold{
+    font-weight : bold ;
+  }
+  img {
+    width: 100%;
+      height: 100%;
+  }
+  .maj {
+    text-align : center;
+    border : 3px solid red;
+    border-radius : 10px ;
+    color : white ;
+    background : #464444 ;
+    padding : 50px ;
+  }
+  
+  body {
+    margin: 0px;
+    padding : 0px;
+  }
+  .Pad_Margin {
+    margin : 70px 120px ;
+    
+  }
+  p {
+    text-align : justify
+  }
+  table {
+    border-collapse : collapse ;
+  }
+  a {
+    color : red;
+  }
